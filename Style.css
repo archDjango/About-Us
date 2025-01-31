@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque; /* Alice Blue */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Full screen container for About Us */
+  .about-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+    text-align: center;
+    overflow: hidden;
+    background-color:antiquewhite;
+  }
+  
+  /* Heading Style */
+  .about-us-heading {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black; /* Sky Blue */
+    margin-bottom: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  /* Swiper Container */
+  .swiper-container {
+    width: 100%;
+    height: 70%;
+  }
+  
+  /* Individual Slide Styling */
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: skyblue; /* Beige */
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover Effect for Slides */
+  .swiper-slide:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Slide Content Styling */
+  .about-us-content {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  /* Image Styling */
+  .about-us-image {
+    width: 100%;
+    height: 350px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .about-us-image:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Text Styling */
+  .about-us-text {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #555;
+    margin-top: 20px;
+    padding: 0 15px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Swiper Navigation & Pagination */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #87ceeb; /* Sky Blue */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #333; /* Dark color for active bullet */
+  }
+  
